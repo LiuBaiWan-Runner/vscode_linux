@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+    //     {
+    //     "name": "(Windows) Launch",
+    //     "type": "cppdbg",
+    //     "request": "launch",
+    //     "preLaunchTask": "Compile",
+    //     "program": "/home/user/Desktop/vscode_linux/C++/exe/${fileBasenameNoExtension}",
+    //     "args": [],
+    //     "stopAtEntry": false,
+    //     "cwd": "${fileDirname}",
+    //     "environment": [],
+    //     //"console": "integratedTerminal"
+    // },
+
+    {
+        "name": "(gdb) Launch",
+        "type": "cppdbg",
+        "request": "launch",
+        "preLaunchTask": "Compile",
+        "program": "/home/user/Desktop/vscode_linux/C++/exe/${fileBasenameNoExtension}",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${fileDirname}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        "miDebuggerPath": "/usr/bin/gdb",
+    }
+
+    ]
+
+}
