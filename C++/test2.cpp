@@ -8,5 +8,7 @@ int main()
     int a;
     cin >> a;
     cout << a << endl;
+    cout << "Hello,world!";
+    cout<<"hello world";
     return 0;
 }
